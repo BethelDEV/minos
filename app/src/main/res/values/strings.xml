@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="game_name_maze">寻路迷宫</string>
+    <string name="game_difficulty_setting">难度设定</string>
+
+    <string name="btnForward" translatable="false">\u25b7 </string>
+    <string name="btnTools" translatable="false">\u2732 </string>
+</resources>

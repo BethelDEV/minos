@@ -1,0 +1,60 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="funs.page.MazeFragment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minHeight="39dp"
+        android:layout_gravity="center_horizontal|top"
+        android:gravity="center"
+        android:textColor="@android:color/holo_orange_dark"
+        android:background="@android:color/transparent"
+        android:text="@string/game_name_maze"
+        android:textSize="21sp" />
+
+    <FrameLayout
+        android:id="@+id/gameContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="42dp"
+        android:layout_marginBottom="70dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_gravity="bottom"
+        android:gravity="center"
+        android:weightSum="4">
+
+        <Button
+            android:id="@+id/settingBtn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="26sp"
+            android:text="@string/btnTools"
+            android:background="@drawable/btn_edge"/>
+
+        <TextView
+            android:id="@+id/scoreTv"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="center_horizontal"
+            android:textSize="20sp"
+            android:text=" 🏆 "
+            android:textColor="@color/destination"/>
+
+        <Button
+            android:id="@+id/nextBtn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="26sp"
+            android:text="@string/btnForward"
+            android:background="@drawable/btn_edge"/>
+    </LinearLayout>
+</FrameLayout>
